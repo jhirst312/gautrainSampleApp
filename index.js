@@ -14,4 +14,14 @@ function loadDoc() {
 
 $(document).ready(function(){
     loadDoc();
+
+});
+
+$("#cardform").validate({
+  rules: {
+    amount: {
+      required: true,
+      number: true
+    }
+  }
 });

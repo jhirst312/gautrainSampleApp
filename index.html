@@ -57,14 +57,15 @@
                 <span class="card-title center">Credit Card Top Up</span>
               </div>
               <div class="card-content">
-                    <form>
+                    <form id="cardform">
                         <div class="input-field">
-                            <i class="material-icons prefix ">credit_card</i>
-                            <input id="icon_prefix" type="text" class="validate">
-                            <label for="icon_prefix">Amount</label>
+                            <!--<i class="material-icons prefix ">credit_card</i>-->
+                            <input type="number" class="validate" id="amount">
+                            <label for="amount" data-error="Please enter a valid number">Amount</label>
+                            <!--<label for="amount" data-error="Please enter a valid number"></label>-->
                         </div>
                         <div class="center">
-                        <a class="waves-effect waves-light btn-large indigo darken-4"><i class="material-icons left">dones</i>Confirm Payment</a>
+                        <a class="waves-effect waves-light btn-large indigo darken-4"><i class="material-icons left">done</i>Confirm Payment</a>
                         </div>
                 </form>
             </div>
@@ -73,8 +74,10 @@
           </div>
 
 
-        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
       <script type="text/javascript" src="js/materialize.min.js"></script>
+      <script type="text/javascript" src="js/jquery.validate.min.js"></script>
+      <script type="text/javascript" src="js/additional-methods.js"></script>
       <script type="text/javascript" src="index.js"></script>
     </body>
 </html>

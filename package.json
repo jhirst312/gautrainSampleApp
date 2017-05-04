@@ -30,11 +30,15 @@
     "eslint-watch": "2.1.14",
     "express": "4.15.2",
     "extract-text-webpack-plugin": "1.0.1",
+    "grunt": "^1.0.1",
+    "grunt-cli": "^1.2.0",
     "html-webpack-plugin": "2.22.0",
+    "jquery-validation": "^1.16.0",
     "jsdom": "9.8.0",
     "json-schema-faker": "0.3.6",
     "json-server": "0.8.22",
     "localtunnel": "1.8.1",
+    "materialize-css": "^0.98.2",
     "mocha": "3.1.2",
     "nock": "8.1.0",
     "npm-run-all": "3.1.1",
@@ -47,7 +51,6 @@
     "webpack": "1.13.2",
     "webpack-dev-middleware": "1.8.4",
     "webpack-hot-middleware": "2.13.0",
-    "webpack-md5-hash": "0.0.5",
-    "materialize-css": "^0.98.2"    
+    "webpack-md5-hash": "0.0.5"
   }
 }
